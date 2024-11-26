@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventuras em Kingsbury</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+           <img src="img/imagem-passo0.png" alt="">
+            <p>
+                Em mais um dia normal, você estava na biblioteca da sua escola procurando o seu livro favorito de aventura: Aventuras em Kingsbury. Você abre o livro e em um piscar de olhos se encontra na terra de Kingsbury! Ao olhar ao redor é possível encontrar o portal que transportou você, o caminho que parece levar a uma cidade e... O Mago Howl! O mesmo Mago Howl do Livro! O que você deseja fazer?
+            </p>
+            <button class="btn-proximo" data-proximo="1">Seguir o caminho</button>
+            <button class="btn-proximo" data-proximo="2">Falar com o Mago Howl</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/imagem-passo2.png" alt="">
+            <p>
+                Ao avançar pelo caminho, você começa a ter maior vislumbre da cidade de Kingsbury, que cidade linda! Porém, ao progredir em sua caminhada você sente que essa aventura, ao mesmo tempo em que pode ser incrível e cheia de magias, também pode conter diversos perigos. O que você deseja fazer?
+            </p>
+            <button class="btn-proximo" data-proximo="3">Continuar a aventura</button>
+            <button class="btn-proximo" data-proximo="4">Desistir da aventura</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>
+                Você caminha até o mais famoso mago de toda Kingsbury, Howl. Ao chegar nele, ele automaticamente percebe o que aconteceu com você, já que você não parece um habitante daquele mundo. Ele oferece ajuda, mas, com uma condição, você deve ajudá-lo a achar suas botas de sete-léguas que foram perdidas nos arredores. Onde você irá procurar?
+            </p>
+    
+            <button class="btn-proximo" data-proximo="5">Procurar nos arbustos próximos</button>
+            <button class="btn-proximo" data-proximo="6">Procurar no rio</button>
+        </div>
+        <div class="passo" id="passo-3">
+                <p>Você se enche de coragem e, genuinamente quer continuar sua aventura e viver um pouco das maravilhas de Kingsbury.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para o reino de Kingsbury</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/imagem-passo4.png" alt="">
+            <p>Você lembra de todos os mistérios e perigos que leu no livro. É melhor voltar para casa caso algo de ruim aconteça.</p>
+    </div>
+    <div class="passo" id="passo-5">
+        <p>Você procura em vários arbustos próximos e... aí estão as botas de sete-léguas! "Ah, você as encontrou! Vista um pé e me de o outro, assim nós vamos estar no reino em instantes e poderei te ajudar" diz o mago. Você segue suas instruções e sabe o que ele planeja, já que as botas de sete-léguas podem fazer uma viagem de dias durar segundos, através de seus passos super rápidos!</p>
+        <button class="btn-proximo" data-proximo="7">Seguir para o reino de Kingsbury</button>
+</div>
+<div class="passo" id="passo-6">
+    <img src="img/imagem-passo6.png" alt="">
+    <p>Você procura no rio e não acha nada. É melhor procurar em outro lugar</p>
+    <button class="btn-proximo" data-proximo="8">Voltar e procurar nos arbustos próximos</button>
+</div>
+<div class="passo" id="passo-7">
+    <img src="img/cenario-passo7.png" alt="">
+    <p>Que vista deslumbrante! O reino de Kingsbury é ainda mais bonito agora do que no livro! As construções são de tirar o fôlego, a ambientação é simplesmente maravilhosa e você consegue sentir a magia no ar. Mas o que é aquilo? UM DRAGÃO! Ele definitivamente não era pra estar ali! Mas o Mago Howl, o melhor mago de toda Kingsbury, está ali para salvar o dia! Ele te diz para não ter medo, ele consegue resolver aquilo, mas precisa da sua ajuda. O que você faz?</p>
+    <button class="btn-proximo" data-proximo="9">Ajudar Howl, mesmo com medo</button>
+    <button class="btn-proximo" data-proximo="10">"ESTOU COM MUITO MEDO!"</button>
+</div>
+<div class="passo" id="passo-8">
+    <p>Você procura em vários arbustos próximos e... aí estão as botas de sete-léguas! "Ah, você as encontrou! Vista um pé e me de o outro, assim nós vamos estar no reino em instantes e poderei te ajudar". Você segue suas instruções e sabe o que ele planeja, já que as botas de sete-léguas podem fazer uma viagem de dias durar segundos, através de seus passos super rápidos!</p>
+    <button class="btn-proximo" data-proximo="7">Seguir para o reino de Kingsbury</button>
+</div>
+<div class="passo" id="passo-9">
+    <p>Você está morrendo de medo, mas coragem é conseguir enfrentar os obstáculos mesmo com medo! É possível ver que Howl não quer machucar o dragão. "Rápido! Procure por Fruto do Pôr do Sol! É a comida favorita dos dragões, assim poderemos afastá-lo da cidade! diz Howl.</p>
+    <button class="btn-proximo" data-proximo="11">Procurar por Fruto do Pôr do Sol</button>
+</div>
+<div class="passo" id="passo-10">
+    <p>"EU ESTOU COM MUITO MEDO!!" você diz. Howl está ocupado distraindo o dragão, mas ele realmente precisa da sua ajuda. "Eu sei que isto está muito fora da sua realidade, mas é uma aventura que não bate na sua porta todo dia! Você consegue! Aproveite a aventura!" diz Howl te encorajando.</p>
+    <button class="btn-proximo" data-proximo="12">Reunir coragem e ajudar Howl</button>
+</div>
+<div class="passo" id="passo-11">
+    <img src="img/imagem-passo11.png" alt="">
+    <p>Um feirante de frutas ouve o que vocês dois estão conversando e joga um Fruto do Pôr do Sol em sua direção. Você e Howl guiam, gentilmente, o dragão para fora da cidade. Realmente não era a maneira que você esperava salvar a cidade de um dragão, mas, mesmo assim, foi muito divertida e encantadora. Esse lugar é maravilhoso e cheio de magia, seu desejo é ficar aqui para sempre, mas você também tem sua vida, sua família, seus amigos e muitos sonhos no seu mundo. Howl sugere um passeio no dragão para chegar de volta ao portal. A viagem de volta foi majestosa, sentir o vendo esfriar o rosto, ver os jardins floridos dos campos, as montanhas e até mesmo o Castelo Animado, a casa de Howl, foi algo que você jamais esquecerá. Ao chegar no portal, você se despede de Howl, "Isso não é uma despedida, você pode voltar aqui sempre que quiser, sempre será bem-vinda, basta abrir o livro e você poderá vivenciar mais jornada aqui". Você agrade e entra no portal, já imaginando a próxima aventura em Kingsbury.</p>
+</div>
+<div class="passo" id="passo-12">
+    <p>Você está morrendo de medo, mas coragem é conseguir enfrentar os obstáculos mesmo com medo! É possível ver que Howl não quer machucar o dragão. "Rápido! Procure por Fruto do Pôr do Sol! São a comida favorita dos dragões, assim poderemos afastá-lo da cidade! diz Howl.</p>
+    <button class="btn-proximo" data-proximo="11">Procurar por Fruto do Pôr do Sol</button>
+</div>
+
+
+
+
+
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
